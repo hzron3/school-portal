@@ -1,0 +1,44 @@
+.bg-light-blue {
+  background-color: #ffff; /* Light blue */
+}
+
+.card-body-custom {
+  background-color: #dffaff;
+}
+.card-tittle {
+  font-size: 18px;
+}
+.icon-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid;
+  font-size: 1.5rem;
+}
+.chart-container {
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
+
+.hover-bg-light-blue:hover {
+  background-color: #d0e7ff !important; /* Light blue background on hover */
+  transition: background-color 0.3s ease;
+}
+
+.card-header {
+  font-weight: bold;
+}
+
+.list-group-item {
+  border: 0; /* Remove border for a cleaner look */
+  border-radius: 0; /* Remove border radius for list items */
+}
+
+.list-group-item:not(:last-child) {
+  border-bottom: 1px solid #e9ecef; /* Add subtle border between items */
+}

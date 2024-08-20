@@ -1,0 +1,48 @@
+/* styles.css */
+.sidebar {
+  background-color: #f8f9fa;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-right: 1px solid #dee2e6;
+  transition: width 0.3s;
+}
+
+.sidebar.expanded {
+  width: 250px;
+}
+
+.sidebar.collapsed {
+  width: 75px;
+}
+
+.sidebar .btn-secondary {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-brand,
+.nav-link,
+.dropdown-item {
+  white-space: nowrap;
+}
+
+.navbar-brand span,
+.nav-link span,
+.dropdown-item span {
+  display: inline;
+}
+
+.sidebar.expanded .navbar-brand span,
+.sidebar.expanded .nav-link span,
+.sidebar.expanded .dropdown-item span {
+  display: inline;
+}
+
+.sidebar.collapsed .navbar-brand span,
+.sidebar.collapsed .nav-link span,
+.sidebar.collapsed .dropdown-item span {
+  display: none;
+}
